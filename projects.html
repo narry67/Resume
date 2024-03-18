@@ -24,6 +24,14 @@
     right: 10px; /* Distance from right */
     color: #fff; /* Link text color */
 }
+.element {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
     </style>
 </head>
 <body>
@@ -35,16 +43,26 @@
 
 <main>
     <section id="projects">
-      <div class="element" style="margin-left: 130px;">
-        <img src="img/dice.png" style="margin-right: 20px;">
-        <img src="img/ffPointsProjection.png" style="margin-right: 20px;">
-        <img src="img/draft position.png">
-      </div>
-      <div class="element" style="margin-left: 130px;">
-        <strong style="margin-right: 180px; margin-left: 25px;"><a href="https://github.com/narry67/Probability-Simulation">Game of Chance: Exploring the Duration of a Die Rolling Contest</a></strong>
-        <strong style="margin-right: 280px;"><a href="https://github.com/narry67/Fantasy_football_projected_points">Vegas + Fantasy Football Projections</a></strong>
-        <strong><a href="https://github.com/narry67/Fantasy-Football/blob/main/Fantasy%2BFootball%2BDraft%2BAnalysis.ipynb">Fantasy Football Draft Order and Sequence</a></strong>
-      </div><!-- Add more projects here -->
+        <div class="element" >
+            <div >
+                <a href="https://github.com/narry67/Probability-Simulation">
+                    <img src="img/dice.png" alt="Game of Chance: Exploring the Duration of a Die Rolling Contest" style="padding-right: 10px">
+                </a>
+                <p class="element">Game of Chance: Exploring the Duration of a Die Rolling Contest</p>
+            </div>
+            <div>
+                <a href="https://github.com/narry67/Fantasy_football_projected_points">
+                    <img src="img/ffPointsProjection.png" alt="Vegas + Fantasy Football Projections" style="padding-right: 10px">
+                </a>
+                <p class="element">Vegas + Fantasy Football Projections</p>
+            </div>
+            <div>
+                <a href="https://github.com/narry67/Fantasy-Football/blob/main/Fantasy%2BFootball%2BDraft%2BAnalysis.ipynb">
+                    <img src="img/draft position.png" alt="Fantasy Football Draft Order and Sequence" style="padding-right: 10px">
+                </a>
+                <p class="element">Fantasy Football Draft Order and Sequence</p>
+            </div>
+        </div>
     </section>
 </main>
 
